@@ -34,3 +34,16 @@ const taxPercent = 10;
   `
   - Above message should be in two lines
 */
+
+var userName = "umakant rajpot "
+var using = `userName`;
+// var const = `using`;
+var bio = `learning to code`;
+alert(`i am ${userName} my bio is ${bio} `);
+alert(`i'am ${firstName} ${lastName} of winterfell`)
+alert(`the total ammount is ${amount}`)
+alert(`the tax amount is' 
+${amount * taxPercent}/100`)
+alert(`the total amount is ${amount}
+the tax amount is ${amount * taxPercent} /100`)
+
