@@ -43,3 +43,23 @@ let num2 = 32;
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+
+alert(`i am learning $(creat)`);
+alert("the value of num1 is ${num1} and the value of num2 is ${num2}");
+alert(` the sum of ${num1} and ${num2} and sum ${num1 + num2}`);
+let userName = prompt(`enter user Name`);
+let userProfession = prompt(`enter proffession name`);
+console.log = `i am ${userName} a ${userProfession}`;
+alert(
+  `username : ${userName}\n adult ${isAdult}\n userproffession ${userProfession}`
+);
+console.log(
+  `username ${userName} \n adult ${isAdult} \n userprofession ${userProfession}`
+);
+let numA = 25;
+let numB = 24;
+alert(numA + numB);
+alert(namA - numB);
+alert(numA * numB);
+console.log(numA - numB);
+console.log(numA * numB);
