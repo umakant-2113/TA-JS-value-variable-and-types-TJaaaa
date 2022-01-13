@@ -9,7 +9,7 @@ alert(`${user}`);
 let user = prompt(`enter the use name `);
 alert(`${user}`);
 let userName = user;
-console.log(user);
+console.log(user ,userName );
 // console.log(userName);
 // 3. Declare variable `age` and `isLearning` with value `22` and `true` in the same line. hint: declaring multiplemvariable in one line.
 let age = 22;isLearning = true;
@@ -21,7 +21,7 @@ console.log(age,isLearning);
 
 let user = prompt(`enter the use name `);
 user = "john"
-console.log(user, userName);
+console.log(user `user`, userName `userName`);
 
 // /* 2.
 // Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
@@ -50,19 +50,24 @@ if (i % 2 !== 0) {
 }
 
 // 10;ia+ all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
+let concat = "";
 let i = 5;
 while (i >= 0) {
-  console.log(i);
+  concat += i;
   i--
 }
+console.log(concat);
 
   // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
+
+  let evenConcat = ""
   let i = 10;
 while (i >= 0) {
-  if(i%2===0)
-    console.log(i)
+  if (i % 2 === 0)
+    evenConcat += i;
     i--
-  }
+}
+console.log(evenConcat);
 
 // Comparisoin
 
